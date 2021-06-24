@@ -65,3 +65,5 @@ D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\obj\Debug\net5.0\Desa
 D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\obj\Debug\net5.0\ref\Desafio_Roman.api.dll
 D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\obj\Debug\net5.0\Desafio_Roman.api.pdb
 D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\obj\Debug\net5.0\Desafio_Roman.api.genruntimeconfig.cache
+D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\bin\Debug\net5.0\Desafio_Roman.api.xml
+D:\Senai\Desafio_Roman\Desafio_Roman.api\Desafio_Roman.api\obj\Debug\net5.0\Desafio_Roman.api.xml
