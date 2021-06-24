@@ -1,0 +1,39 @@
+-- DDL
+
+CREATE DATABASE Desafio_Roman
+GO
+
+USE Desafio_Roman
+GO
+
+CREATE TABLE TiposUsuarios
+(
+	idTipoUsuario INT PRIMARY KEY IDENTITY
+   ,TituloTipoUsuario VARCHAR(100) UNIQUE NOT NULL
+)
+GO
+
+CREATE TABLE Usuarios
+(
+	idUsuario INT PRIMARY KEY IDENTITY
+   ,idTipoUsuario INT FOREIGN KEY REFERENCES TiposUsuarios(idTipoUsuario)
+   ,Email VARCHAR(100) UNIQUE NOT NULL
+   ,Senha VARCHAR(50) NOT NULL
+)
+GO
+
+CREATE TABLE Temas
+(
+	idTema INT PRIMARY KEY IDENTITY
+   ,Tema VARCHAR(200) NOT NULL
+)
+GO
+
+CREATE TABLE Projetos
+(
+	idProjeto INT PRIMARY KEY IDENTITY
+	,idTema INT FOREIGN KEY REFERENCES Temas(idTema)
+	,Nome VARCHAR(100) UNIQUE NOT NULL
+	,Descricao VARCHAR(500)
+)
+GO
